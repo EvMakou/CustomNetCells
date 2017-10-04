@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageWall;
+@property (weak, nonatomic) IBOutlet UILabel *tap;
 
+@property (strong, nonatomic) NSTimer *timer;
 @end
 

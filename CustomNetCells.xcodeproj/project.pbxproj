@@ -15,6 +15,11 @@
 		713D59A61F8446D7003E6EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713D59A41F8446D7003E6EF7 /* LaunchScreen.storyboard */; };
 		713D59B11F8446D7003E6EF7 /* CustomNetCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713D59B01F8446D7003E6EF7 /* CustomNetCellsTests.m */; };
 		713D59BC1F8446D7003E6EF7 /* CustomNetCellsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713D59BB1F8446D7003E6EF7 /* CustomNetCellsUITests.m */; };
+		713D59CB1F84480A003E6EF7 /* GamesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713D59CA1F84480A003E6EF7 /* GamesTableViewController.m */; };
+		713D59CE1F84498C003E6EF7 /* GameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 713D59CD1F84498C003E6EF7 /* GameTableViewCell.m */; };
+		713D59D11F84499F003E6EF7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 713D59D01F84499F003E6EF7 /* Game.m */; };
+		713D59D31F8453E3003E6EF7 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = 713D59D21F8453E3003E6EF7 /* on.png */; };
+		D05DDE76887075C52881CFA9 /* libPods-CustomNetCells.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 864B56E869C5108E03C9586F /* libPods-CustomNetCells.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		713D59B71F8446D7003E6EF7 /* CustomNetCellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNetCellsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		713D59BB1F8446D7003E6EF7 /* CustomNetCellsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNetCellsUITests.m; sourceTree = "<group>"; };
 		713D59BD1F8446D7003E6EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713D59C91F84480A003E6EF7 /* GamesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesTableViewController.h; sourceTree = "<group>"; };
+		713D59CA1F84480A003E6EF7 /* GamesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesTableViewController.m; sourceTree = "<group>"; };
+		713D59CC1F84498C003E6EF7 /* GameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTableViewCell.h; sourceTree = "<group>"; };
+		713D59CD1F84498C003E6EF7 /* GameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTableViewCell.m; sourceTree = "<group>"; };
+		713D59CF1F84499F003E6EF7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		713D59D01F84499F003E6EF7 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		713D59D21F8453E3003E6EF7 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		830D194024B0D2FDDD2EECC5 /* Pods-CustomNetCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNetCells.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNetCells/Pods-CustomNetCells.debug.xcconfig"; sourceTree = "<group>"; };
+		864B56E869C5108E03C9586F /* libPods-CustomNetCells.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomNetCells.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8776591D1BCD96D5028008A5 /* Pods-CustomNetCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNetCells.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNetCells/Pods-CustomNetCells.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05DDE76887075C52881CFA9 /* libPods-CustomNetCells.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8F420199AB6CB3F5F5E770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864B56E869C5108E03C9586F /* libPods-CustomNetCells.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65FE59D3DE7B323D90B82D27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				830D194024B0D2FDDD2EECC5 /* Pods-CustomNetCells.debug.xcconfig */,
+				8776591D1BCD96D5028008A5 /* Pods-CustomNetCells.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		713D598A1F8446D7003E6EF7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,8 @@
 				713D59AF1F8446D7003E6EF7 /* CustomNetCellsTests */,
 				713D59BA1F8446D7003E6EF7 /* CustomNetCellsUITests */,
 				713D59941F8446D7003E6EF7 /* Products */,
+				65FE59D3DE7B323D90B82D27 /* Pods */,
+				1F8F420199AB6CB3F5F5E770 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +136,12 @@
 		713D59951F8446D7003E6EF7 /* CustomNetCells */ = {
 			isa = PBXGroup;
 			children = (
-				713D59991F8446D7003E6EF7 /* AppDelegate.h */,
-				713D599A1F8446D7003E6EF7 /* AppDelegate.m */,
-				713D599C1F8446D7003E6EF7 /* ViewController.h */,
-				713D599D1F8446D7003E6EF7 /* ViewController.m */,
+				71422B9E1F84DE7D00D07928 /* AppDelegate */,
+				71422B9F1F84DE8900D07928 /* Start */,
+				71422BA01F84DE9500D07928 /* Game */,
 				713D599F1F8446D7003E6EF7 /* Main.storyboard */,
 				713D59A21F8446D7003E6EF7 /* Assets.xcassets */,
+				713D59D21F8453E3003E6EF7 /* on.png */,
 				713D59A41F8446D7003E6EF7 /* LaunchScreen.storyboard */,
 				713D59A71F8446D7003E6EF7 /* Info.plist */,
 				713D59961F8446D7003E6EF7 /* Supporting Files */,
@@ -140,6 +175,37 @@
 			path = CustomNetCellsUITests;
 			sourceTree = "<group>";
 		};
+		71422B9E1F84DE7D00D07928 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				713D59991F8446D7003E6EF7 /* AppDelegate.h */,
+				713D599A1F8446D7003E6EF7 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		71422B9F1F84DE8900D07928 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				713D599C1F8446D7003E6EF7 /* ViewController.h */,
+				713D599D1F8446D7003E6EF7 /* ViewController.m */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		71422BA01F84DE9500D07928 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				713D59C91F84480A003E6EF7 /* GamesTableViewController.h */,
+				713D59CA1F84480A003E6EF7 /* GamesTableViewController.m */,
+				713D59CC1F84498C003E6EF7 /* GameTableViewCell.h */,
+				713D59CD1F84498C003E6EF7 /* GameTableViewCell.m */,
+				713D59CF1F84499F003E6EF7 /* Game.h */,
+				713D59D01F84499F003E6EF7 /* Game.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 713D59C01F8446D7003E6EF7 /* Build configuration list for PBXNativeTarget "CustomNetCells" */;
 			buildPhases = (
+				8490FBA844CCF2693A52433F /* [CP] Check Pods Manifest.lock */,
 				713D598F1F8446D7003E6EF7 /* Sources */,
 				713D59901F8446D7003E6EF7 /* Frameworks */,
 				713D59911F8446D7003E6EF7 /* Resources */,
+				26A078C149452E20824E44CA /* [CP] Embed Pods Frameworks */,
+				E96656B6B6A8DF6D5E77A1D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +317,7 @@
 			files = (
 				713D59A61F8446D7003E6EF7 /* LaunchScreen.storyboard in Resources */,
 				713D59A31F8446D7003E6EF7 /* Assets.xcassets in Resources */,
+				713D59D31F8453E3003E6EF7 /* on.png in Resources */,
 				713D59A11F8446D7003E6EF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,13 +338,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26A078C149452E20824E44CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomNetCells/Pods-CustomNetCells-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8490FBA844CCF2693A52433F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomNetCells-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E96656B6B6A8DF6D5E77A1D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomNetCells/Pods-CustomNetCells-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		713D598F1F8446D7003E6EF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				713D599E1F8446D7003E6EF7 /* ViewController.m in Sources */,
+				713D59CB1F84480A003E6EF7 /* GamesTableViewController.m in Sources */,
 				713D599B1F8446D7003E6EF7 /* AppDelegate.m in Sources */,
+				713D59D11F84499F003E6EF7 /* Game.m in Sources */,
+				713D59CE1F84498C003E6EF7 /* GameTableViewCell.m in Sources */,
 				713D59981F8446D7003E6EF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +546,7 @@
 		};
 		713D59C11F8446D7003E6EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830D194024B0D2FDDD2EECC5 /* Pods-CustomNetCells.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomNetCells/Info.plist;
@@ -433,6 +558,7 @@
 		};
 		713D59C21F8446D7003E6EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8776591D1BCD96D5028008A5 /* Pods-CustomNetCells.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomNetCells/Info.plist;
@@ -507,6 +633,7 @@
 				713D59C21F8446D7003E6EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713D59C31F8446D7003E6EF7 /* Build configuration list for PBXNativeTarget "CustomNetCellsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +642,7 @@
 				713D59C51F8446D7003E6EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713D59C61F8446D7003E6EF7 /* Build configuration list for PBXNativeTarget "CustomNetCellsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +651,7 @@
 				713D59C81F8446D7003E6EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
