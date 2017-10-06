@@ -10,7 +10,6 @@
 
 @interface GameTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel* lblTitle;
-@property (weak, nonatomic) IBOutlet UILabel* lblYear;
 @property (weak, nonatomic) IBOutlet UIImageView* imgPoster;
 
 @end

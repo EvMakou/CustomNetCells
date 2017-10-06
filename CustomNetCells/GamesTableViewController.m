@@ -24,64 +24,50 @@
     
     
     Game* game = [[Game alloc]init];
-    game.title = @"Doom";
-    game.year = @"2016";
-    game.poster = @"https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcuEgPvjEZKly4WA4TAKGDQzVauJbxbRAyL3UZVASj8B6XQcrta8D6MFy5BP5AsGi0EVieHqYwGQC0Ipum1w2j62RWySrjDZmlruA8HHbOfH.B5c5SXxO5k0DRgoUt15TueuIlm5xT9m6wL4RM2yEiiUDIhBL9N4m4wnSL.wwPDS0-&w=200&h=300&format=jpg";
     
-    [self.arrayOfGames addObject:game];
     game = [[Game alloc]init];
-    game.title = @"GTA 5";
-    game.year = @"2013";
-    game.poster = @"https://i1.wp.com/webmuch.com/wp-content/uploads/2013/04/gta5-box-art.png?fit=460%2C563&ssl=1";
+    game.title = @"Flower type 1";
+    
+    game.poster = @"https://st2.depositphotos.com/4341251/6490/i/950/depositphotos_64906463-stock-photo-beautiful-flowers-background.jpg";
     [self.arrayOfGames addObject:game];
     
     game = [[Game alloc]init];
-    game.title = @"FIFA 17";
-    game.year = @"2016";
-    game.poster = @"https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcoYBrJRe6ocDBW_8MGfBUlzYTrjKUmdO25Ts6oNYyGWD0gtcTksRCQO2Q1NxRmwr2uZX2bkdkfwSnNDnc3EssjId9agR0g.vCJnn8uVyVKI5hhiqCsOOXJtazexp_zYf4siucg7eRX9v1TO7mjqK9Shn5UAXHUfgBKYwzc2CPC0c-&w=200&h=300&format=jpg";
+    game.title = @"Flower type 2";
+    
+    game.poster = @"https://img1.goodfon.ru/wallpaper/big/2/a3/romashki-cvety-cvetok-buket-4109.jpg";
     [self.arrayOfGames addObject:game];
     
     game = [[Game alloc]init];
-    game.title = @"The Witcher";
-    game.year = @"2015";
-    game.poster = @"https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg";
+    game.title = @"Flower type 3";
+    
+    game.poster = @"https://www.7flowers.ru/upload/images/catalogcategory/1/cache/1_353x236_image_58b81ed2e7925.png";
     [self.arrayOfGames addObject:game];
     
     game = [[Game alloc]init];
-    game.title = @"Dishonored 2";
-    game.year = @"2016";
-    game.poster = @"https://dishonored.bethesda.net/assets/images/dishonored-2-fb-share-8ef325c803.jpg";
+    game.title = @"Flower type 4";
+   
+    game.poster = @"https://www.wmj.ru/imgs/2016/12/05/09/933634/7c5874a085ca4bc20eaf7c32cd65743ac0b131d0.jpg";
     [self.arrayOfGames addObject:game];
     
     game = [[Game alloc]init];
-    game.title = @"Deus Ex: Mankind Divided";
-    game.year = @"2016";
-    game.poster = @"http://www.kritikanstvo.ru/games/d/deusexmankinddivided/covers/deusexmankinddivided_pc_560588.jpg";
+    game.title = @"Flower type 5";
+   
+    game.poster = @"https://st2.depositphotos.com/1000848/7024/i/450/depositphotos_70243831-stock-photo-abstract-background-of-flowers.jpg";
     [self.arrayOfGames addObject:game];
     
     game = [[Game alloc]init];
-    game.title = @"Watch Dogs 2";
-    game.year = @"2016";
-    game.poster = @"https://ubistatic19-a.akamaihd.net/ubicomstatic/en-US/global/game-info/WD2-ubicom-gameinfo-boxart-rated-tablet-v2_Tablet_254078.jpg";
+    game.title = @"Flower type 6";
+   
+    game.poster = @"https://previews.123rf.com/images/serezniy/serezniy1208/serezniy120806093/15009127-beautiful-bouquet-of-bright-wildflowers-in-basket-isolated-on-white-Stock-Photo.jpg";
     [self.arrayOfGames addObject:game];
     
     game = [[Game alloc]init];
-    game.title = @"Horizon Zero Dawn";
-    game.year = @"2017";
-    game.poster = @"https://store.playstation.com/store/api/chihiro/00_09_000/container/AU/en/999/EP9000-CUSA01021_00-HRZ0000000000000/1505461891000/image?_version=00_09_000&platform=chihiro&w=225&h=225&bg_color=000000&opacity=100";
+    game.title = @"Flower type 7";
+   
+    game.poster = @"https://flowers.ua/images/Flowers/zoom/1/0/1461.jpg";
     [self.arrayOfGames addObject:game];
     
-    game = [[Game alloc]init];
-    game.title = @"uncharted 4";
-    game.year = @"2017";
-    game.poster = @"https://store.playstation.com/store/api/chihiro/00_09_000/container/CA/en/999/UP9000-CUSA00341_00-UNCHARTED0000000/1502827657000/image?_version=00_09_000&platform=chihiro&w=225&h=225&bg_color=000000&opacity=100";
-    [self.arrayOfGames addObject:game];
-    
-    game = [[Game alloc]init];
-    game.title = @"Mass Effect: Andromeda";
-    game.year = @"2017";
-    game.poster = @"https://upload.wikimedia.org/wikipedia/ru/f/fb/MEA_cover.png";
-    [self.arrayOfGames addObject:game];
+    [self.activity startAnimating];
 
 }
 
@@ -115,17 +101,39 @@
         NSLog(@"cell reused");
     }
     
+    
     Game* game = (self.arrayOfGames)[indexPath.row];
-    cell.lblTitle.text = game.title;
-    cell.lblYear.text = game.year;
-    
-    [cell.imgPoster setImageWithURL:[NSURL URLWithString:game.poster]];
+    NSString *dataUrl = game.poster;
+    NSURL *url = [NSURL URLWithString:dataUrl];
     
     
-    cell.imgPoster.layer.cornerRadius = 30;
+    NSURLSessionDataTask *downloadTask = [[NSURLSession sharedSession]
+                                          dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+                                              [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                                                  UIImage *tmpImage = [[UIImage alloc] initWithData:data];
+                                                  //image.image = tmpImage;
+                                                  cell.imgPoster.image = tmpImage;
+                                              }];
+                                              
+                                          }];
+    
+    
+    [downloadTask resume];
+
+    
+    
+    cell.imgPoster.contentMode = UIViewContentModeCenter;
+    cell.lblTitle.text = [NSString stringWithFormat:@"Flower type %ld", indexPath.row + 1];
+    cell.lblTitle.textColor = [UIColor colorWithRed:214.0/255.0 green:57.0/255.0 blue:19.0/255.0 alpha:1.0];
+//    cell.lblYear.text = game.year;
+    
+    
+    
+    
+    cell.imgPoster.layer.cornerRadius = 20;
     cell.imgPoster.layer.masksToBounds = YES;
     cell.imgPoster.layer.borderWidth = 0;
-    cell.backgroundColor = [UIColor colorWithRed:225.0/255.0 green:254.0/255.0 blue:255.0/255.0 alpha:1.0];
+    cell.backgroundColor = [UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0];
     
     return cell;
 

@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@property(nonatomic, strong) NSMutableArray* arrayOfGames;
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activity;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIView *viewOfActivity;
+
+
+
+- (void)loadImageForIndex:(NSInteger)index;
+- (NSInteger)milk:(NSInteger)i;
 @end

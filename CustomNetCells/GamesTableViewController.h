@@ -12,4 +12,9 @@
 @property(nonatomic, strong) NSMutableArray* arrayOfGames;
 //@property (weak, nonatomic) IBOutlet UIImageView *imageGame;
 
+
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activity;
+
+
+
 @end

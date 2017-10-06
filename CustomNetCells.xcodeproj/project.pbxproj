@@ -18,7 +18,8 @@
 		713D59CB1F84480A003E6EF7 /* GamesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713D59CA1F84480A003E6EF7 /* GamesTableViewController.m */; };
 		713D59CE1F84498C003E6EF7 /* GameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 713D59CD1F84498C003E6EF7 /* GameTableViewCell.m */; };
 		713D59D11F84499F003E6EF7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 713D59D01F84499F003E6EF7 /* Game.m */; };
-		713D59D31F8453E3003E6EF7 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = 713D59D21F8453E3003E6EF7 /* on.png */; };
+		7156C0831F8526B8009493D1 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 7156C0821F8526B8009493D1 /* main.png */; };
+		7156C0861F858F65009493D1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7156C0851F858F65009493D1 /* SecondViewController.m */; };
 		D05DDE76887075C52881CFA9 /* libPods-CustomNetCells.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 864B56E869C5108E03C9586F /* libPods-CustomNetCells.a */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +63,9 @@
 		713D59CD1F84498C003E6EF7 /* GameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTableViewCell.m; sourceTree = "<group>"; };
 		713D59CF1F84499F003E6EF7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		713D59D01F84499F003E6EF7 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
-		713D59D21F8453E3003E6EF7 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		7156C0821F8526B8009493D1 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		7156C0841F858F65009493D1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7156C0851F858F65009493D1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		830D194024B0D2FDDD2EECC5 /* Pods-CustomNetCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNetCells.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNetCells/Pods-CustomNetCells.debug.xcconfig"; sourceTree = "<group>"; };
 		864B56E869C5108E03C9586F /* libPods-CustomNetCells.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomNetCells.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8776591D1BCD96D5028008A5 /* Pods-CustomNetCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNetCells.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNetCells/Pods-CustomNetCells.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,8 +144,8 @@
 				71422BA01F84DE9500D07928 /* Game */,
 				713D599F1F8446D7003E6EF7 /* Main.storyboard */,
 				713D59A21F8446D7003E6EF7 /* Assets.xcassets */,
-				713D59D21F8453E3003E6EF7 /* on.png */,
 				713D59A41F8446D7003E6EF7 /* LaunchScreen.storyboard */,
+				7156C0821F8526B8009493D1 /* main.png */,
 				713D59A71F8446D7003E6EF7 /* Info.plist */,
 				713D59961F8446D7003E6EF7 /* Supporting Files */,
 			);
@@ -196,6 +199,8 @@
 		71422BA01F84DE9500D07928 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				7156C0841F858F65009493D1 /* SecondViewController.h */,
+				7156C0851F858F65009493D1 /* SecondViewController.m */,
 				713D59C91F84480A003E6EF7 /* GamesTableViewController.h */,
 				713D59CA1F84480A003E6EF7 /* GamesTableViewController.m */,
 				713D59CC1F84498C003E6EF7 /* GameTableViewCell.h */,
@@ -315,9 +320,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7156C0831F8526B8009493D1 /* main.png in Resources */,
 				713D59A61F8446D7003E6EF7 /* LaunchScreen.storyboard in Resources */,
 				713D59A31F8446D7003E6EF7 /* Assets.xcassets in Resources */,
-				713D59D31F8453E3003E6EF7 /* on.png in Resources */,
 				713D59A11F8446D7003E6EF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +402,7 @@
 				713D599E1F8446D7003E6EF7 /* ViewController.m in Sources */,
 				713D59CB1F84480A003E6EF7 /* GamesTableViewController.m in Sources */,
 				713D599B1F8446D7003E6EF7 /* AppDelegate.m in Sources */,
+				7156C0861F858F65009493D1 /* SecondViewController.m in Sources */,
 				713D59D11F84499F003E6EF7 /* Game.m in Sources */,
 				713D59CE1F84498C003E6EF7 /* GameTableViewCell.m in Sources */,
 				713D59981F8446D7003E6EF7 /* main.m in Sources */,
