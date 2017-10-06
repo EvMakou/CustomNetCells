@@ -89,18 +89,25 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="231"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBh-Wf-fbc">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vBh-Wf-fbc">
                                                     <rect key="frame" x="46" y="31" width="283" height="143"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="143" id="q0R-ze-OFn"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzX-Bi-M1F">
-                                                    <rect key="frame" x="125" y="184" width="200" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <rect key="frame" x="118" y="182" width="162" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <color key="textColor" red="0.83743780850000005" green="0.22446118470000001" blue="0.076281153150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vBh-Wf-fbc" firstAttribute="top" secondItem="woi-qB-5GM" secondAttribute="topMargin" constant="23" id="G9B-nf-2aV"/>
+                                                <constraint firstItem="vBh-Wf-fbc" firstAttribute="leading" secondItem="woi-qB-5GM" secondAttribute="leadingMargin" constant="38" id="UEi-5X-zfR"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="vBh-Wf-fbc" secondAttribute="trailing" constant="38" id="m3K-1F-9Jg"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="imgPoster" destination="vBh-Wf-fbc" id="A2Q-G7-jlJ"/>
