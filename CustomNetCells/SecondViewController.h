@@ -19,5 +19,5 @@
 
 
 - (void)loadImageForIndex:(NSInteger)index;
-- (NSInteger)milk:(NSInteger)i;
+
 @end

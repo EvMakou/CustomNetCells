@@ -95,18 +95,19 @@
                                                         <constraint firstAttribute="height" constant="143" id="q0R-ze-OFn"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzX-Bi-M1F">
-                                                    <rect key="frame" x="118" y="182" width="162" height="16"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzX-Bi-M1F">
+                                                    <rect key="frame" x="81" y="182" width="44.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <color key="textColor" red="0.83743780850000005" green="0.22446118470000001" blue="0.076281153150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="jzX-Bi-M1F" firstAttribute="top" secondItem="vBh-Wf-fbc" secondAttribute="bottom" constant="8" id="9xq-AQ-7MK"/>
                                                 <constraint firstItem="vBh-Wf-fbc" firstAttribute="top" secondItem="woi-qB-5GM" secondAttribute="topMargin" constant="23" id="G9B-nf-2aV"/>
                                                 <constraint firstItem="vBh-Wf-fbc" firstAttribute="leading" secondItem="woi-qB-5GM" secondAttribute="leadingMargin" constant="38" id="UEi-5X-zfR"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="vBh-Wf-fbc" secondAttribute="trailing" constant="38" id="m3K-1F-9Jg"/>
+                                                <constraint firstItem="jzX-Bi-M1F" firstAttribute="leading" secondItem="woi-qB-5GM" secondAttribute="leadingMargin" constant="73" id="v1O-Rs-nk6"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
